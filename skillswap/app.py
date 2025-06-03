@@ -1,7 +1,10 @@
+# app.py
+
 from flask import Flask, render_template
 from database import Session
-from models.user import User, UserSkill
+from models.user import User
 from models.skill import Skill
+from models.user_skill import UserSkill
 
 app = Flask(__name__)
 
